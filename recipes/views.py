@@ -11,4 +11,4 @@ def about(request):
     return HttpResponse('ABOUT 2')
 
 def contact(request):
-    return render(request, 'me-apague/temp.html')
+    return render(request, 'recipes/contato.html')
